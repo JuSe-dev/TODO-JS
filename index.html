@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <header id="header">
+        <div id="headerDiv">
+            <h1>ToDo-list</h1>
+        </div>
+    </header>
+    <main id="main">
+        <div id="buttonDiv" class="mainDivs">
+            <h2>Functions:</h2>
+            <div id="buttons">
+                <button id="add">Add to List</button>
+                <button id="delete">Delete All</button>                
+            </div>
+        </div>
+        <div id="inputDiv" class="mainDivs">
+            <h2>Info:</h2>
+            <label for="input">Title:</label>
+            <input id="input" type="text" required>
+            <label for="textarea">More info:</label>
+            <textarea id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div id="contentDiv" class="mainDivs">
+            <h2>Current todos:</h2>
+            <div id="list"></div>
+        </div>
+    </main>
+<script src="./javascript.js"></script>
+</body>
+</html>
